@@ -57,6 +57,8 @@ namespace Docg.Service
                     case "正文":
                         setting.Content = ele;
                         break;
+                    default:
+                        break;
                 }
             }
             return setting;
