@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrm));
             this.panel2 = new System.Windows.Forms.Panel();
             this.btncAdd3 = new System.Windows.Forms.Button();
             this.btntAdd3 = new System.Windows.Forms.Button();
@@ -333,7 +332,7 @@
             // 
             // tsbSet
             // 
-            this.tsbSet.Image = ((System.Drawing.Image)(resources.GetObject("tsbSet.Image")));
+            this.tsbSet.Image = global::Docg.UI.Properties.Resources.set;
             this.tsbSet.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbSet.Name = "tsbSet";
             this.tsbSet.Size = new System.Drawing.Size(33, 32);
@@ -348,7 +347,7 @@
             // 
             // tsbExplain
             // 
-            this.tsbExplain.Image = ((System.Drawing.Image)(resources.GetObject("tsbExplain.Image")));
+            this.tsbExplain.Image = global::Docg.UI.Properties.Resources.help;
             this.tsbExplain.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbExplain.Name = "tsbExplain";
             this.tsbExplain.Size = new System.Drawing.Size(33, 32);

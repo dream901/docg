@@ -1,28 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <setting>
   <style>
     <name>主题</name>
-    <size>10</size>
+    <size>20</size>
     <bold>true</bold>
   </style>
   <style>
     <name>一级标题</name>
-    <size>1</size>
+    <size>16</size>
     <bold>true</bold>
   </style>
   <style>
     <name>二级标题</name>
-    <size>2</size>
+    <size>14</size>
     <bold>true</bold>
   </style>
   <style>
     <name>三级标题</name>
-    <size>3</size>
+    <size>14</size>
     <bold>true</bold>
   </style>
   <style>
     <name>正文</name>
-    <size>4</size>
-    <bold>true</bold>
+    <size>12</size>
+    <bold>false</bold>
   </style>
 </setting>

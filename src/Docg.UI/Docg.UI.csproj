@@ -61,6 +61,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="SettingFrm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,12 +81,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="SettingFrm.resx">
       <DependentUpon>SettingFrm.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,7 +109,14 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="resource\setting.xml" />
+    <Content Include="Resources\add.png" />
+    <Content Include="Resources\exit.png" />
+    <Content Include="Resources\help.png" />
+    <Content Include="Resources\reload.png" />
+    <Content Include="Resources\save.png" />
+    <Content Include="Resources\set.png" />
+    <Content Include="Resources\setting.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
