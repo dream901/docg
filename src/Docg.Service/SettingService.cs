@@ -18,7 +18,9 @@ namespace Docg.Service
         public SettingService()
         {
             //var path = Path.Combine(@"C:\works\docg\src\Docg.UI", @"\resource\setting.xml");
-            XmlFilePath = @"C:\works\docg\src\Docg.UI\Resources\setting.xml";
+            XmlFilePath = @"../../Resources/setting.xml";
+            
+            //XmlFilePath = @"D:\project\docg\src\Docg.UI\Resources\setting.xml";
         }
 
         /// <summary>
